@@ -83,4 +83,4 @@ function calculateWinner(squares) {
     return null;
 }
 
-export default  Board;
+export default Board;
