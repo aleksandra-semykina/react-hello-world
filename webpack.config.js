@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-  entry: "./ReactHelloWorld/React/src/index.js",
+  entry: "./ReactHelloWorld/React/src/index.jsx",
   mode: "development",
   target: 'node',
   module: {

@@ -147,22 +147,25 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Content\Site.css" />
+    <Content Include="React\src\Game\Game.jsx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="dist\bundle.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="React\public\index.html" />
     <Content Include="React\src\App.css" />
-    <Content Include="React\src\App.js" />
-    <Content Include="React\src\index.js" />
+    <Content Include="React\src\App.jsx" />
+    <Content Include="React\src\Game\Board.jsx" />
+    <Content Include="React\src\Game\GameApp.jsx" />
+    <Content Include="React\src\Game\Square.jsx" />
+    <Content Include="React\src\Game\Styles\styles.css" />
+    <Content Include="React\src\index.jsx" />
+    <Content Include="React\src\ShoppingList.jsx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
