@@ -2,13 +2,14 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-  entry: ".ReactHelloWorld/React/src/index.js",
+  entry: "./ReactHelloWorld/React/src/index.js",
   mode: "development",
+  target: 'node',
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /(node_modules|bower_components)/,
+        exclude: /node_modules/,
         loader: 'babel-loader',
         options: { presets: ['env'] }
       },
@@ -20,7 +21,7 @@ module.exports = {
   },
   resolve: { extensions: ['*', '.js', '.jsx'] },
   output: {
-    path: path.resolve(__dirname, "dist/"),
+    path: __dirname + "/ReactHelloWorld/dist",
     publicPath: "/dist/",
     filename: "bundle.js"
   },
